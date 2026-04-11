@@ -26,11 +26,11 @@ body {
 }
 
 /* RTL Font Adjustment */
-html[dir="rtl"] {
-    font-family: 'IBM Plex Sans Arabic', sans-serif;
+html[dir="rtl"], html[dir="rtl"] body {
+    font-family: 'IBM Plex Sans Arabic', sans-serif !important;
 }
-html[dir="ltr"] {
-    font-family: 'Outfit', sans-serif;
+html[dir="ltr"], html[dir="ltr"] body {
+    font-family: 'Outfit', sans-serif !important;
 }
 
 /* Custom Keyframes & Animations */
