@@ -1,3 +1,3 @@
 <IfModule mod_headers.c>
-    Header add Link "</.well-known/api-catalog>; rel=\"api-catalog\""
+    Header add Link "</.well-known/api-catalog>; rel=\"api-catalog\", </index.md>; rel=\"describedby\""
 </IfModule>
