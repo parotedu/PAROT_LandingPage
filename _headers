@@ -1,2 +1,2 @@
-/
-  Link: </.well-known/api-catalog>; rel="api-catalog"
+/*
+  Link: </.well-known/api-catalog>; rel="api-catalog", </index.md>; rel="describedby"
