@@ -4,4 +4,4 @@ Disallow: /private/
 Disallow: /tmp/
 
 Sitemap: https://parotcorp.com/sitemap.xml
-Content-Signal: ai-train=no, search=yes, ai-input=no
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
