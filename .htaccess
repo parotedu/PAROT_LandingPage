@@ -1,3 +1,17 @@
 <IfModule mod_headers.c>
     Header add Link "</.well-known/api-catalog>; rel=\"api-catalog\", </index.md>; rel=\"describedby\""
 </IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTP_ACCEPT} text/markdown
+    RewriteRule ^(index\.html)?$ /index.md [L,R=302]
+</IfModule>
+
+<FilesMatch "^api-catalog$">
+    ForceType application/linkset+json
+</FilesMatch>
+
+<FilesMatch "^(oauth-authorization-server|oauth-protected-resource|server-card\.json|index\.json)$">
+    ForceType application/json
+</FilesMatch>
