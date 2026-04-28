@@ -14,11 +14,11 @@
   ],
   "headers": [
     {
-      "source": "/",
+      "source": "/(.*)",
       "headers": [
         {
           "key": "Link",
-          "value": "</.well-known/api-catalog>; rel=\"api-catalog\""
+          "value": "</.well-known/api-catalog>; rel=\"api-catalog\", </index.md>; rel=\"describedby\""
         }
       ]
     },
