@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/",
+      "source": "/(index\\.html)?",
       "has": [
         {
           "type": "header",
@@ -32,6 +32,24 @@
         {
           "key": "x-markdown-tokens",
           "value": "260"
+        }
+      ]
+    },
+    {
+      "source": "/.well-known/api-catalog",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/linkset+json"
+        }
+      ]
+    },
+    {
+      "source": "/.well-known/(oauth-authorization-server|oauth-protected-resource|mcp/server-card\\.json|agent-skills/index\\.json)",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/json"
         }
       ]
     }

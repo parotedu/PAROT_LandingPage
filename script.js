@@ -225,4 +225,25 @@ document.addEventListener('DOMContentLoaded', () => {
     revealElements.forEach(el => {
         revealOnScroll.observe(el);
     });
+
+    // 5. WebMCP Implementation
+    if (navigator.modelContext && navigator.modelContext.provideContext) {
+        navigator.modelContext.provideContext({
+            tools: [
+                {
+                    name: "getCompanyInfo",
+                    description: "Get information about PAROT company sectors and services",
+                    inputSchema: {
+                        type: "object",
+                        properties: {}
+                    },
+                    execute: async (args) => {
+                        return { 
+                            result: "PAROT is a software company specializing in Software Development, Artificial Intelligence, Internet of Things (IoT), and Business Solutions." 
+                        };
+                    }
+                }
+            ]
+        });
+    }
 });

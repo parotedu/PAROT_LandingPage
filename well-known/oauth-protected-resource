@@ -1,0 +1,7 @@
+{
+  "resource": "https://parotcorp.com/api",
+  "authorization_servers": [
+    "https://parotcorp.com"
+  ],
+  "scopes_supported": ["read", "write"]
+}

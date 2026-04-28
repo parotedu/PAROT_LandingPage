@@ -1,0 +1,8 @@
+{
+  "issuer": "https://parotcorp.com",
+  "authorization_endpoint": "https://parotcorp.com/oauth/authorize",
+  "token_endpoint": "https://parotcorp.com/oauth/token",
+  "jwks_uri": "https://parotcorp.com/oauth/jwks",
+  "response_types_supported": ["code"],
+  "grant_types_supported": ["authorization_code", "client_credentials"]
+}
