@@ -6,6 +6,14 @@ A cutting-edge Software Company redefining technology through pioneering solutio
 
 ---
 
+## Proven Scale & Reach (Our Impact)
+- **12+ Clients Served:** High-impact organizations and visionary businesses across diverse industries.
+- **3 Countries Active Footprint:** Egypt 🇪🇬, Saudi Arabia 🇸🇦, Kuwait 🇰🇼.
+- **4 Proprietary Platforms & Brands:** Nova, Short, Holy Quran Platform, and Nexus Academy.
+- **99.9% Infrastructure Reliability:** Enterprise-grade cloud availability and continuous uptime.
+
+---
+
 ## Our History
 **From a Vision to an Industry Catalyst.**
 
@@ -28,6 +36,30 @@ Bridging the physical and digital worlds with interconnected devices that provid
 
 ### Business Solutions
 Empowering enterprises with comprehensive ERPs, CRMs, and management tools that streamline operations and increase revenue.
+
+---
+
+## Our Ecosystem: Projects & Brands
+
+### 1. Nova
+- **Type:** High-Speed Cross-Device File Transfer Platform
+- **URL:** [https://nova.parotcorp.com](https://nova.parotcorp.com)
+- **Overview:** An ultra-fast, secure cross-device file transfer platform designed for instant local and remote sharing without size limits or compression.
+
+### 2. Short
+- **Type:** Smart Link Management & Analytics
+- **URL:** [https://short.parotcorp.com](https://short.parotcorp.com)
+- **Overview:** Enterprise URL shortening and digital link intelligence with lightning-fast redirects, branded domains, and rich real-time analytics.
+
+### 3. Holy Quran Platform (منصة القرآن الكريم)
+- **Type:** Digital Islamic Tech
+- **URL:** [https://quran.parotcorp.com](https://quran.parotcorp.com)
+- **Overview:** A serene, high-fidelity digital Quran platform featuring acclaimed recitations, interactive search, tafseer, and a clean modern aesthetic.
+
+### 4. Nexus Academy
+- **Type:** Official Educational & Tech Brand
+- **URL:** [https://nexus.parotcorp.com](https://nexus.parotcorp.com)
+- **Overview:** A premier educational and tech training brand preparing future engineers and developers through practical bootcamps and tech masterclasses.
 
 ---
 

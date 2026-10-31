@@ -5,6 +5,8 @@ const translations = {
         brand: "PAROT",
         nav_about: "About",
         nav_sectors: "Sectors",
+        nav_products: "Ecosystem & Brands",
+        nav_impact: "Impact",
         nav_founders: "Founders",
         nav_partners: "Partners",
         nav_contact: "Contact",
@@ -17,6 +19,21 @@ const translations = {
         hero_subtitle: "A cutting-edge Software Company redefining technology through pioneering solutions in AI, IoT, and Business Software.",
         hero_btn_explore: "Explore Our Story",
         hero_btn_sectors: "Our Sectors",
+        hero_btn_products: "Our Ecosystem",
+        
+        // Impact / Numbers
+        impact_badge: "Proven Scale & Reach",
+        impact_title: "Numbers That Reflect Our Growth",
+        impact_subtitle: "Delivering tangible value across borders through software excellence and innovation.",
+        stat_clients_label: "Clients Served",
+        stat_clients_desc: "Trusted by ambitious enterprises & startups",
+        stat_countries_label: "Countries Served",
+        stat_countries_desc: "Active client footprint across the Arab region",
+        stat_countries_list: "Egypt 🇪🇬 • Saudi Arabia 🇸🇦 • Kuwait 🇰🇼",
+        stat_products_label: "Proprietary Brands & Platforms",
+        stat_products_desc: "Nova, Short, Quran Platform & Nexus Academy",
+        stat_uptime_label: "Enterprise Reliability",
+        stat_uptime_desc: "Cloud-native high availability & scalability",
         
         // About
         about_tag: "Our History",
@@ -38,6 +55,30 @@ const translations = {
         sectors_business: "Business Solutions",
         sectors_business_desc: "Empowering enterprises with comprehensive ERPs, CRMs, and management tools that streamline operations and increase revenue.",
         
+        // Products & Brands (Nova updated: Ultra-Fast File Transfer Platform)
+        products_badge: "Proprietary Ecosystem",
+        products_title: "Our Projects & Brands",
+        products_subtitle: "Explore the independent platforms and specialized brands incubated and powered by PAROT technology.",
+        prod_nova_tag: "High-Speed File Transfer",
+        prod_nova_title: "Nova",
+        prod_nova_desc: "An ultra-fast, secure cross-device file transfer platform designed for instant local and remote sharing without size limits or compression.",
+        prod_nova_btn: "Launch Nova",
+        
+        prod_short_tag: "Smart Link Management",
+        prod_short_title: "Short",
+        prod_short_desc: "Enterprise URL shortening and digital link intelligence with lightning-fast redirects, branded domains, and rich real-time analytics.",
+        prod_short_btn: "Launch Short",
+        
+        prod_quran_tag: "Digital Islamic Tech",
+        prod_quran_title: "منصة القرآن الكريم",
+        prod_quran_desc: "A serene, high-fidelity digital Quran platform featuring acclaimed recitations, interactive search, tafseer, and a clean modern aesthetic.",
+        prod_quran_btn: "Visit Platform",
+        
+        prod_nexus_tag: "Official Tech Brand",
+        prod_nexus_title: "Nexus Academy",
+        prod_nexus_desc: "A premier educational and tech training brand preparing future engineers and developers through practical bootcamps and tech masterclasses.",
+        prod_nexus_btn: "Explore Academy",
+
         // Founders
         founders_tag: "Leadership",
         founders_title: "Meet the Founders",
@@ -63,6 +104,8 @@ const translations = {
         brand: "باروت",
         nav_about: "عن الشركة",
         nav_sectors: "قطاعاتنا",
+        nav_products: "المشاريع والبراندات",
+        nav_impact: "إنجازاتنا",
         nav_founders: "المؤسسون",
         nav_partners: "شركاؤنا",
         nav_contact: "تواصل معنا",
@@ -75,6 +118,21 @@ const translations = {
         hero_subtitle: "شركة برمجيات رائدة تعيد صياغة التكنولوجيا من خلال حلول مبتكرة في الذكاء الاصطناعي، إنترنت الأشياء، وبرمجيات الأعمال.",
         hero_btn_explore: "اكتشف قصتنا",
         hero_btn_sectors: "قطاعاتنا",
+        hero_btn_products: "مشاريعنا وبرانداتنا",
+        
+        // Impact / Numbers
+        impact_badge: "أثر ملموس وتوسع إقليمي",
+        impact_title: "أرقام وإنجازات تعكس نمونا المستمر",
+        impact_subtitle: "نقدم قيمة حقيقية تتجاوز الحدود من خلال التميز البرمجي والابتكار المستدام.",
+        stat_clients_label: "عميل تم خدمتهم",
+        stat_clients_desc: "ثقة متبادلة مع مؤسسات وشركات طموحة",
+        stat_countries_label: "دول عربية خدمنا فيها",
+        stat_countries_desc: "توسع تشغيلي وتواجد فعلي في الأسواق الإقليمية",
+        stat_countries_list: "مصر 🇪🇬 • السعودية 🇸🇦 • الكويت 🇰🇼",
+        stat_products_label: "منصات وبراندات مستقلة",
+        stat_products_desc: "نوفا، شورت، منصة القرآن، وأكاديمية نيكسس",
+        stat_uptime_label: "جاهزية واستقرار برمجي",
+        stat_uptime_desc: "بنية تحتية سحابية متقدمة واعتمادية مستمرة",
         
         // About
         about_tag: "تاريخنا",
@@ -96,6 +154,30 @@ const translations = {
         sectors_business: "حلول الأعمال",
         sectors_business_desc: "تمكين المؤسسات باستخدام أنظمة تخطيط موارد المؤسسات (ERP) وإدارة علاقات العملاء (CRM) الشاملة وأدوات الإدارة التي تبسط العمليات وتزيد الإيرادات.",
         
+        // Products & Brands (Nova updated: Ultra-Fast File Transfer Platform)
+        products_badge: "منظومتنا وبرانداتنا",
+        products_title: "مشاريع وبراندات تصنع الفارق",
+        products_subtitle: "اكتشف المنصات الرقمية المستقلة والبراندات الرائدة التي طورتها ورعتها باروت لتغيير قواعد التكنولوجيا.",
+        prod_nova_tag: "نقل الملفات فائق السرعة",
+        prod_nova_title: "Nova",
+        prod_nova_desc: "منصة متطورة لنقل الملفات بسرعة فائقة وأمان تام بين مختلف الأجهزة بكل سهولة، دون قيود على الحجم أو تقليل للجودة.",
+        prod_nova_btn: "زيارة نوفا",
+        
+        prod_short_tag: "إدارة الروابط الذكية",
+        prod_short_title: "Short",
+        prod_short_desc: "منصة احترافية لتقصير الروابط وإدارتها رقمياً، مزودة بتحليلات لحظية دقيقة وروابط مخصصة وتوجيه فائق السرعة.",
+        prod_short_btn: "زيارة شورت",
+        
+        prod_quran_tag: "تقنية إسلامية وقرآنية",
+        prod_quran_title: "منصة القرآن الكريم",
+        prod_quran_desc: "تجربة قرآنية رقمية متكاملة تقدم تلاوات نقية بأصوات نخبة من القراء، وبحثاً ميسراً وتفاسير بتصميم إسلامي معاصر.",
+        prod_quran_btn: "زيارة منصة القرآن",
+        
+        prod_nexus_tag: "براند تدريبي وأكاديمية رسمية",
+        prod_nexus_title: "Nexus Academy",
+        prod_nexus_desc: "براند أكاديمي وتقني رائد يهدف إلى صقل مهارات المطورين وبناء كفاءات برمجية رائدة عبر معسكرات تدريبية متقدمة.",
+        prod_nexus_btn: "زيارة الأكاديمية",
+
         // Founders
         founders_tag: "القيادة",
         founders_title: "تعرف على المؤسسين",
@@ -120,7 +202,7 @@ const translations = {
 
 let currentLang = 'en';
 
-// --- Functions ---
+// --- Functions (Optimized with zero layout reflow) ---
 
 function setLanguage(lang) {
     currentLang = lang;
@@ -131,18 +213,19 @@ function setLanguage(lang) {
     
     // Update Toggle Button Text
     const langText = document.getElementById('lang-text');
-    if(langText) {
-        langText.innerText = translations[lang]['lang_btn'];
+    if (langText) {
+        langText.textContent = translations[lang]['lang_btn'];
     }
 
-    // Update all translatable elements
+    // Update all translatable elements using textContent (fast, no forced reflow)
     const elements = document.querySelectorAll('[data-i18n]');
-    elements.forEach(el => {
+    for (let i = 0; i < elements.length; i++) {
+        const el = elements[i];
         const key = el.getAttribute('data-i18n');
-        if (translations[lang][key]) {
-            el.innerText = translations[lang][key];
+        if (translations[lang] && translations[lang][key] !== undefined) {
+            el.textContent = translations[lang][key];
         }
-    });
+    }
 }
 
 function toggleLanguage() {
@@ -150,96 +233,213 @@ function toggleLanguage() {
     setLanguage(newLang);
 }
 
-// --- Initialization & Event Listeners ---
-
-// Remove Preloader after exactly 2 seconds
-setTimeout(() => {
+// --- High-Performance Snappy Preloader ---
+(function initFastPreloader() {
     const preloader = document.getElementById('preloader');
-    if (preloader) {
-        preloader.classList.add('hidden');
-        // Remove from DOM after transition completes
-        setTimeout(() => preloader.remove(), 600);
+    const progressBar = document.getElementById('preloader-bar');
+    const percentText = document.getElementById('preloader-percent');
+    
+    let progress = 10;
+    let isWindowLoaded = false;
+    
+    const interval = setInterval(() => {
+        if (!isWindowLoaded) {
+            progress = Math.min(progress + 15, 85);
+        } else {
+            progress = Math.min(progress + 30, 100);
+        }
+        
+        if (progressBar) progressBar.style.width = progress + '%';
+        if (percentText) percentText.textContent = progress + '%';
+        
+        if (progress >= 100) {
+            clearInterval(interval);
+            setTimeout(() => {
+                if (preloader) {
+                    preloader.classList.add('loaded');
+                    setTimeout(() => preloader.remove(), 400);
+                }
+            }, 80);
+        }
+    }, 30);
+    
+    const finishLoading = () => {
+        isWindowLoaded = true;
+    };
+
+    if (document.readyState === 'complete') {
+        finishLoading();
+    } else {
+        window.addEventListener('load', finishLoading, { once: true });
     }
-}, 2000);
+    
+    // Fallback: maximum 600ms
+    setTimeout(finishLoading, 600);
+})();
 
 document.addEventListener('DOMContentLoaded', () => {
     // 1. Language Toggle Setup
     const langBtn = document.getElementById('lang-toggle');
-    if(langBtn) {
+    if (langBtn) {
         langBtn.addEventListener('click', toggleLanguage);
     }
-    
-    // Initial Load (Default is EN)
-    // Note: The HTML is heavily constructed around EN by default.
-    // If you want to default to Arabic, you'd call setLanguage('ar') here.
     
     // 2. Mobile Menu Toggle
     const mobileBtn = document.getElementById('mobile-menu-btn');
     const mobileMenu = document.getElementById('mobile-menu');
     
-    if(mobileBtn && mobileMenu) {
-        mobileBtn.addEventListener('click', () => {
+    if (mobileBtn && mobileMenu) {
+        mobileBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
             mobileMenu.classList.toggle('hidden');
         });
         
-        // Close menu on link click
         mobileMenu.querySelectorAll('a').forEach(link => {
             link.addEventListener('click', () => {
                 mobileMenu.classList.add('hidden');
             });
         });
-    }
-
-    // 3. Navbar Scroll Effect (Glassmorphism enhancer)
-    const navbar = document.getElementById('navbar');
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > 50) {
-            navbar.classList.add('py-2');
-            navbar.classList.remove('py-4');
-        } else {
-            navbar.classList.add('py-4');
-            navbar.classList.remove('py-2');
-        }
-    });
-
-    // 4. Scroll Reveal Animations setup using Intersection Observer
-    const revealElements = document.querySelectorAll('.reveal');
-    
-    const revealOptions = {
-        threshold: 0.15,
-        rootMargin: "0px 0px -50px 0px"
-    };
-
-    const revealOnScroll = new IntersectionObserver(function(entries, observer) {
-        entries.forEach(entry => {
-            if (!entry.isIntersecting) {
-                return;
-            } else {
-                entry.target.classList.add('active');
-                // Optional: Stop observing once revealed
-                observer.unobserve(entry.target);
+        
+        document.addEventListener('click', (e) => {
+            if (!mobileMenu.contains(e.target) && !mobileBtn.contains(e.target)) {
+                mobileMenu.classList.add('hidden');
             }
         });
-    }, revealOptions);
+    }
 
-    revealElements.forEach(el => {
-        revealOnScroll.observe(el);
+    // 3. Instant, Lag-Free Smooth Scrolling for all Internal Anchor Links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            const targetId = this.getAttribute('href');
+            if (!targetId || targetId === '#') return;
+            const targetElement = document.querySelector(targetId);
+            if (targetElement) {
+                e.preventDefault();
+                targetElement.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+                if (history.pushState) {
+                    history.pushState(null, null, targetId);
+                }
+            }
+        });
     });
 
-    // 5. WebMCP Implementation
+    // 4. Optimized Navbar Scroll (Passive, zero-reflow threshold check)
+    const navbarContainer = document.getElementById('navbar-container');
+    let isScrolled = false;
+    
+    window.addEventListener('scroll', () => {
+        const shouldBeScrolled = window.scrollY > 40;
+        if (shouldBeScrolled !== isScrolled) {
+            isScrolled = shouldBeScrolled;
+            if (navbarContainer) {
+                if (isScrolled) {
+                    navbarContainer.classList.add('bg-opacity-95', 'shadow-[0_12px_40px_rgba(0,0,0,0.6)]');
+                } else {
+                    navbarContainer.classList.remove('bg-opacity-95', 'shadow-[0_12px_40px_rgba(0,0,0,0.6)]');
+                }
+            }
+        }
+    }, { passive: true });
+
+    // 5. Scroll Reveal Animations (Hardware Accelerated)
+    const revealElements = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries, observer) => {
+        for (let i = 0; i < entries.length; i++) {
+            const entry = entries[i];
+            if (entry.isIntersecting) {
+                entry.target.classList.add('active');
+                observer.unobserve(entry.target);
+            }
+        }
+    }, {
+        threshold: 0.1,
+        rootMargin: "0px 0px -30px 0px"
+    });
+
+    revealElements.forEach(el => revealObserver.observe(el));
+
+    // 6. High-Performance Number Counters (Using textContent to eliminate reflow)
+    const statCounters = document.querySelectorAll('.stat-counter');
+    let hasAnimatedStats = false;
+    
+    const statsObserver = new IntersectionObserver((entries, observer) => {
+        for (let i = 0; i < entries.length; i++) {
+            if (entries[i].isIntersecting && !hasAnimatedStats) {
+                hasAnimatedStats = true;
+                statCounters.forEach(counter => {
+                    const target = parseFloat(counter.getAttribute('data-target'));
+                    const isDecimal = target % 1 !== 0;
+                    const duration = 1000;
+                    const startTime = performance.now();
+                    
+                    function updateNumber(currentTime) {
+                        const elapsed = currentTime - startTime;
+                        const progress = Math.min(elapsed / duration, 1);
+                        const easeOut = 1 - Math.pow(1 - progress, 3);
+                        const currentVal = easeOut * target;
+                        
+                        counter.textContent = isDecimal 
+                            ? currentVal.toFixed(1) 
+                            : Math.floor(currentVal).toString();
+                            
+                        if (progress < 1) {
+                            requestAnimationFrame(updateNumber);
+                        } else {
+                            counter.textContent = isDecimal ? target.toFixed(1) : target.toString();
+                        }
+                    }
+                    requestAnimationFrame(updateNumber);
+                });
+                observer.disconnect();
+                break;
+            }
+        }
+    }, { threshold: 0.2 });
+
+    const impactSection = document.getElementById('impact');
+    if (impactSection) {
+        statsObserver.observe(impactSection);
+    }
+
+    // 7. WebMCP Implementation (Updated with Nova file transfer specification)
     if (navigator.modelContext && navigator.modelContext.provideContext) {
         navigator.modelContext.provideContext({
             tools: [
                 {
                     name: "getCompanyInfo",
-                    description: "Get information about PAROT company sectors and services",
+                    description: "Get comprehensive information about PAROT company, sectors, brands, products, client stats, and presence",
                     inputSchema: {
                         type: "object",
                         properties: {}
                     },
-                    execute: async (args) => {
+                    execute: async () => {
                         return { 
-                            result: "PAROT is a software company specializing in Software Development, Artificial Intelligence, Internet of Things (IoT), and Business Solutions." 
+                            result: {
+                                company: "PAROT",
+                                founded: 2024,
+                                clientsServed: 12,
+                                countries: ["Egypt", "Saudi Arabia", "Kuwait"],
+                                sectors: [
+                                    "Software Development",
+                                    "Artificial Intelligence",
+                                    "Internet of Things (IoT)",
+                                    "Business Solutions"
+                                ],
+                                productsAndBrands: [
+                                    { 
+                                        name: "Nova", 
+                                        domain: "nova.parotcorp.com", 
+                                        type: "High-Speed Cross-Device File Transfer Platform",
+                                        description: "Instant peer-to-peer and cloud-assisted high speed file transfer across devices without size limits."
+                                    },
+                                    { name: "Short", domain: "short.parotcorp.com", type: "Smart Link Management" },
+                                    { name: "Holy Quran Platform", domain: "quran.parotcorp.com", type: "Digital Quran & Islamic Tech" },
+                                    { name: "Nexus Academy", domain: "nexus.parotcorp.com", type: "Official Educational & Tech Brand" }
+                                ]
+                            }
                         };
                     }
                 }
